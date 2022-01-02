@@ -15,34 +15,6 @@ public class UserInfoPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-/*
-    @FindBy(id = "id_gender1")
-    private WebElement titleCheck;
-
-    @FindBy(id = "customer_firstname")
-    private WebElement firstNameInput;
-
-    @FindBy(id = "customer_lastname")
-    private WebElement lastName;
-
-    @FindBy(id = "passwd")
-    private WebElement password;
-
-    @FindBy(id = "days")
-    private WebElement dayOfBirth;
-
-    @FindBy(id = "months")
-    private WebElement monthOfBirth;
-
-    @FindBy(id = "years")
-    private WebElement yearOfBirth;
-
-    @FindBy(id = "newsletter")
-    private WebElement newsletterCheck;
-
-    @FindBy(id = "submitAccount")
-    private WebElement submitButton;
- */
 
     @FindBy(className = "alert alert-success")
     private WebElement myAccountIsAdded;
